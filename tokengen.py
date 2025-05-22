@@ -131,7 +131,7 @@ class ZerodhaTokenGenerator:
                 f.write(f"# Valid for: Current trading session only\n")
             
             print(f"\n💾 Credentials saved to: zerodha_credentials.txt")
-            print("You can use these in your options tracker!")
+            print("You can use these in your Algo!")
             
         except Exception as e:
             print(f"⚠️  Could not save credentials: {e}")
@@ -155,7 +155,7 @@ class ZerodhaTokenGenerator:
             print("\n" + "="*60)
             print("NEXT STEPS")
             print("="*60)
-            print("1. Use these credentials in your Options Tracker:")
+            print("1. Use these credentials in your Algo:")
             print(f"   API Key: {self.api_key}")
             print(f"   Access Token: {access_token}")
             print()
@@ -221,7 +221,7 @@ if __name__ == "__main__":
     if not api_key or not access_token:
         main()
     else:
-        print("\n✅ You can use the existing credentials in your Options Tracker!")
+        print("\n✅ You can use the existing credentials in your Algo!")
 
 # Quick troubleshooting guide
 def troubleshooting_guide():
@@ -280,7 +280,7 @@ USAGE:
 
 2. Follow the steps to get valid credentials
 
-3. Use the credentials in your Options Tracker
+3. Use the credentials in your Algo
 
 4. If you get connection errors, run troubleshooting_guide()
 
@@ -288,6 +288,6 @@ DAILY WORKFLOW:
 ==============
 - Run token generator each morning
 - Get fresh access token
-- Use in Options Tracker
+- Use in your desired Algorithm
 - Tokens expire at market close
 """
