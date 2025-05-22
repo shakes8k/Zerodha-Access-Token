@@ -1,5 +1,7 @@
 
 """
+****CONSIDER READING README.MD BEFORE USE****
+Created by: https://github.com/shakes8k/
 Zerodha Access Token Generator
 Helps generate valid access tokens for various Algo Trading applications
 and scripts.
@@ -132,6 +134,7 @@ class ZerodhaTokenGenerator:
             
             print(f"\n💾 Credentials saved to: zerodha_credentials.txt")
             print("You can use these in your Algo!")
+            print("Created by: https://github.com/shakes8k/")
             
         except Exception as e:
             print(f"⚠️  Could not save credentials: {e}")
@@ -268,6 +271,7 @@ TROUBLESHOOTING ZERODHA API CONNECTION:
    - Contact Zerodha support
    - Check their API documentation
    - Verify your account permissions
+   - Contact: https://github.com/shakes8k/
 """)
 
 # Usage instructions
