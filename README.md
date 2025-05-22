@@ -4,13 +4,14 @@ How to Use?
 
 
 
-0. On CMD/Powershell type: pip install kiteconnect
+1. On CMD/Powershell type: pip install kiteconnect
+.
 This is a basic python Kite API for Zerodha.
 
 
 
 
-1. Run the script
+2. Run the script
 
 ![image](https://github.com/user-attachments/assets/28a9f95b-4ea7-4a03-a7f9-e31be7d08aa4)
 
